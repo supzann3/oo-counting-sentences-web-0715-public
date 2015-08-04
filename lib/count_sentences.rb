@@ -3,6 +3,9 @@
 
 class String
   def count_sentences
-    # code goes here
+      self.split(/\.|\?|\!+/).length
   end
 end
+
+# sentence_one="hello! How are you?"
+# sentence_one.count_sentences
